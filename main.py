@@ -13,7 +13,7 @@ def count_chars(s):
 def report_chars(d):
     for k in sorted(d, key=d.get, reverse=True):
         if k.isalpha():
-            print(f"'{k}' was found {d[k]} times")
+            print(f"'{k}' found {d[k]} times")
 
 def main():
     with open("books/frankenstein.txt") as f:
